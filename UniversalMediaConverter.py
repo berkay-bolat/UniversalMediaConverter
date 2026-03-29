@@ -266,7 +266,6 @@ class UniversalConverterApp(ctk.CTk):
         for display_text, (bitrate, format_obj) in best_formats_by_res_fps.items():
             format_id = format_obj.get("format_id")
             if format_id:
-                # Eğer videonun kendi içinde sesi yoksa bestaudio ile birleştir
                 if format_obj.get("acodec", "none") == "none":
                     format_id += "+bestaudio/best"
                 video_formats_display.append(display_text)

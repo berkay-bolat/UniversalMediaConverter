@@ -20,10 +20,12 @@ A modern, dark-themed desktop application to download and convert media from var
 
 1. **Install Dependencies:**
    Make sure you install the required Python libraries.
+
    ```bash
    pip install -r requirements.txt
 
-2. **Run The App:**
+3. **Run The App:**
+
    ```bash
    python UniversalMediaConverter.py
 
